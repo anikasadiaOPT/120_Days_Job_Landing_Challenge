@@ -17,23 +17,36 @@ An organized 120-day challenge to build practical skills in Machine Learning (ML
     - `day_01.md`
 
 ## Day 01 — Challenges
-The first day introduces Python fundamentals and numeric operations essential for data work. Below are the challenge themes as outlined in `01_day/day_01.md`:
+The first day introduces Python fundamentals and numeric operations essential for data work.
 
 - **Challenge 01: The Identity Swap**
-    - Practice variable assignment, swapping values, and verifying identity vs equality.
-    - Typical tasks: swap two variables without a temporary variable, check `is` vs `==` for immutable types.
+    - **File:** `Challenge_01.py`
+    - **Description:** Swap two variables using tuple unpacking without a temporary variable.
+    - **Input:** Initial values `x=100`, `y=50`
+    - **Output:** Displays before/after swap: `Before Swap: x=100 y=50` → `After Swap: x=50 y=100`
+    - **Key Concepts:** Variable assignment, tuple unpacking, swap patterns.
 
 - **Challenge 02: The Type Auditor**
-    - Inspect and convert between core Python types (int, float, str, bool).
-    - Typical tasks: validate inputs, cast safely, and assert expected types for computations.
+    - **File:** `Challenge_02.py`
+    - **Description:** Inspect type of user input and convert from string to float.
+    - **Input:** User enters a number (initially as string)
+    - **Output:** Shows type before (`<class 'str'>`) and after conversion (`<class 'float'>`)
+    - **Key Concepts:** Type inspection with `type()`, type casting with `float()`, input validation.
 
 - **Challenge 03: The Precision Banker**
-    - Handle numeric precision and rounding for financial-style calculations.
-    - Typical tasks: use `round()`, `decimal.Decimal`, format values, and avoid floating-point pitfalls.
+    - **File:** `Challenge_03.py`
+    - **Description:** Handle floating-point precision and format currency output.
+    - **Input:** Calculation `bill = 100/3.0`
+    - **Output:** Formatted to 3 decimal places: `$33.333`
+    - **Key Concepts:** Float precision, string formatting with f-strings, rounding control.
 
 - **Challenge 04: The Modulo Architect**
-    - Apply modulo arithmetic to build cyclic logic and partition data.
-    - Typical tasks: even/odd checks, bucket indexing, wrap-around sequences.
+    - **File:** `Challenge_04.py`
+    - **Description:** Convert seconds into hours, minutes, and remaining seconds using modulo and floor division.
+    - **Input:** Time in seconds (user input)
+    - **Output:** Breakdown: `H hours and M minutes and S seconds`
+    - **Example:** 3661 seconds → `1 hours and 1 minutes and 1 seconds`
+    - **Key Concepts:** Integer division (`//`), modulo operator (`%`), time arithmetic.
 
 ## Getting Started
 1. Ensure you have Python 3.10+ installed.
