@@ -1,0 +1,6 @@
+# The Efficient Skipper
+max_number = 10
+for i in range(1 , max_number+1):
+    if i == 5:
+        continue  # Skip number 5
+    print(i)
