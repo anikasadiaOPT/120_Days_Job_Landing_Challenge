@@ -1,7 +1,6 @@
 # The Database Merger
 
 print("Before Merging the two dictionaries")
-
 defaults = {
     "theme" : "light",
     "audio" : "on"
