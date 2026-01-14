@@ -1,4 +1,4 @@
-# The Filter
+# The Filter of filtering the non-zeros
 
 numbers = [45,23,54,-10,19,-100]
 
