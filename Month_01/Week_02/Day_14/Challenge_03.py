@@ -1,5 +1,4 @@
 # Anagrams (Frequency)
-
 from collections import Counter
 
 word1 = "silent"
