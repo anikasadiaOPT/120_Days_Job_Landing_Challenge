@@ -3,7 +3,6 @@ list_A = [3,6,2,9,2,40,1,34,26,74,6,7]
 list_B = [56,3,12,7,4,88,26,24,7,22,12]
 
 target = 50
-
 # Brute Force Approach
 for i in list_A:
     for j in list_B:
